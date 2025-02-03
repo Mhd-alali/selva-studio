@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
